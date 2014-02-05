@@ -12,7 +12,7 @@
           <span class="badge badge-info" ng-click="collapseOther(team); openTeam && calculatePlayerWeightedStats(teamStatsNorm, stats, statsByTeam, openTeam);">Players</span>
         </p>
         </td>
-        <td class="team-badge"><img ng-src="img/nba_logos/{{team.logo_url}}"></td>
+        <td class="team-badge"><img class="team-logo" ng-src="img/nba_logos/{{team.logo_url}}"></td>
         <td class="team-details">{{team.franchise}}</td>
       </tr>
       <tr ng-repeat-end>

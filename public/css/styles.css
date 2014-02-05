@@ -118,6 +118,10 @@ body {
   background-color: #fff;
 }
 
+.team-logo {
+  max-width: 70px;
+}
+
 /* table row animation styles */
 /* these are not workig */
 .team.ng-enter,
