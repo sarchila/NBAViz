@@ -1,12 +1,12 @@
 {
-  "name": "mean",
-  "description": "MEAN - A Modern Stack: MongoDB, ExpressJS, AngularJS, NodeJS. (BONUS: Passport User Support).",
+  "name": "NBAViz",
+  "description": "NBA Stats Visualizer",
   "version": "0.1.0",
   "private": false,
-  "author": "Amos Haviv",
+  "author": "Santiago Archila",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linnovate/mean.git"
+    "url": "https://github.com/sarchila/NBAViz.git"
   },
   "engines": {
     "node": "0.10.x",
