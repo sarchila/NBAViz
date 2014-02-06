@@ -11,10 +11,9 @@
     "angular-bootstrap": "0.7.0",
     "angular-ui-utils": "0.0.4",
     "d3": "latest",
-    "angular-busy": "*",
     "angular-animate": "~1.2.7"
   },
   "resolutions": {
-    "angular": "1.2.7"
+    "angular": "1.2.11"
   }
 }

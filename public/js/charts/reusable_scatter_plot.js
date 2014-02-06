@@ -145,12 +145,6 @@ d3.custom.scatterPlot = function module() {
         });
       };
 
-      // Commented out my fancy fade in/fade on mouseover since it was
-      // intermittant issues with the initial
-      // dots
-      //   .on("mouseover", dotMouseOver)
-      //   .on("mouseout", fadeDotsIn);
-
       // Team Labels
       // ======================================================================
       var teamLabels = svg.select(".chart-group")
@@ -165,10 +159,6 @@ d3.custom.scatterPlot = function module() {
         .style("fill", function(d) { return d.teamColor2; })
         .attr("text-anchor", "middle");
 
-      // teamLabels.on("mouseover", function(d, i) {
-      //   dotMouseOver.call(dots[0][i]);
-      // }).on("mouseout", fadeDotsIn);
-
       // update label position on data change
       teamLabels.transition()
         .duration(750)
@@ -182,24 +172,6 @@ d3.custom.scatterPlot = function module() {
 
       teamLabels.exit().transition().style({opacity: 0}).remove();
 
-      // var legend = svg.selectAll(".legend")
-      //     .data(color.domain())
-      //   .enter().append("g")
-      //     .attr("class", "legend")
-      //     .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-      // legend.append("rect")
-      //     .attr("x", width - 18)
-      //     .attr("width", 18)
-      //     .attr("height", 18)
-      //     .style("fill", color);
-
-      // legend.append("text")
-      //     .attr("x", width - 24)
-      //     .attr("y", 9)
-      //     .attr("dy", ".35em")
-      //     .style("text-anchor", "end")
-      //     .text(function(d) { return d; });
   });
 }
 
