@@ -10,16 +10,6 @@ There are two ways to visualize:
 
 ### [Click here to start playing!](http://nbastar.herokuapp.com/ "NBAStatsViz")
 
-## Screenshots
-
-**Power Ranking**
-
-![Main Interface](https://raw2.github.com/sarchila/NBAViz/master/screenshots/powerranking.png?token=5355769__eyJzY29wZSI6IlJhd0Jsb2I6c2FyY2hpbGEvTkJBVml6L21hc3Rlci9zY3JlZW5zaG90cy9wb3dlcnJhbmtpbmcucG5nIiwiZXhwaXJlcyI6MTM4OTkzMTcwNX0%3D--66f6f4dc109ab0ddf0864b37fe3a0e956f03a588)
-
-**Scatterplot**
-
-![Main Interface](https://raw.github.com/sarchila/NBAViz/master/screenshots/scatter.gif?token=5355769__eyJzY29wZSI6IlJhd0Jsb2I6c2FyY2hpbGEvTkJBVml6L21hc3Rlci9zY3JlZW5zaG90cy9zY2F0dGVyLmdpZiIsImV4cGlyZXMiOjEzODk5MzE4MDV9--53a92db043f67902e1d8311472bd52300f51a0eb)
-
 =========
 
 ### Tech Stack
